@@ -22,7 +22,6 @@ body:
       required: true
   - type: textarea
     attributes:
-      label: Git version
       description: |
         Please specify the exact Git version you're using of both server and client. You can find the version information by running `git version`.
       value: |
@@ -32,8 +31,6 @@ body:
       required: true
   - type: input
     attributes:
-      label: Operating system
-      description: |
         Please specify the exact operating system name and version you're reporting for, e.g. "Windows 10", "CentOS 7", "Ubuntu 20.04".
     validations:
       required: true
@@ -43,10 +40,8 @@ body:
       description: |
         Please specify the exact database and version you're reporting for, e.g. "PostgreSQL 9.6", "MySQL 5.7", "SQLite 3".
     validations:
-      required: true
   - type: textarea
     attributes:
-      label: Describe the bug
       description: A clear and concise description of what the bug is.
     validations:
       required: true
